@@ -1,0 +1,9 @@
+setup.py
+Tweepy.egg-info/PKG-INFO
+Tweepy.egg-info/SOURCES.txt
+Tweepy.egg-info/dependency_links.txt
+Tweepy.egg-info/top_level.txt
+migrations/0001_initial.py
+migrations/0002_user_delete_tweet.py
+migrations/0003_delete_user.py
+migrations/__init__.py

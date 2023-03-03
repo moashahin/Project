@@ -1,0 +1,9 @@
+setup.py
+Sentiment.egg-info/PKG-INFO
+Sentiment.egg-info/SOURCES.txt
+Sentiment.egg-info/dependency_links.txt
+Sentiment.egg-info/top_level.txt
+migrations/0001_initial.py
+migrations/0002_user_delete_tweet.py
+migrations/0003_delete_user.py
+migrations/__init__.py

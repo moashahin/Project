@@ -1,0 +1,33 @@
+{% block content %}
+<!-- Start about Area -->
+    <section class="feature-area section-gap" id="secvice">
+    <div class="container">
+        <div class="row d-flex justify-content-center">
+            <div class="menu-content pb-60 col-lg-8">
+                <div class="title text-center">
+                    <h1 class="mb-10">Sentiment Analysis</h1>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12">
+                <form>
+                    <div>
+                        <label for="">HASHTAG</label>
+                        <input type="text" name="hashtag"/>
+                        <input type="date" name="apt">
+                    </div>
+                    Sentiments:
+                    Positive: <input type="text" value="{{num1}}"/>
+                    Negative: <input type="text" value="{{num2}}"/>
+                    Neutral:  <input type="text" value="{{num3}}"/>
+                    <div class=="pt-">
+                        <button type="submit">Analyze</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+    </section>
+<!-- End about Area -->
+{% endblock %}
